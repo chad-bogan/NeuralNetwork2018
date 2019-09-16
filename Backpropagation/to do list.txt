@@ -1,0 +1,83 @@
+date: November 28 2018
+Get started.
+Might reuse some of the code from the previous XOR network I hard-coded.
+Using the sigmoid method is a must. >>>DONE
+Code in momentum and learning rate. >>>DONE
+
+date: November 30 2018
+Write a method that does the Delta-weight function
+Write a method that calculates the gradient
+ONE GRADIENT FOR EACH WEIGHT IN THE NETWORK
+Assign random values for the 9 weights >>>DONE
+
+date: December 4 2018
+Figure out what the desired outputs should be >>>DONE (0.223)
+Calculate the error using MSE or something else idk lol >>>DONE
+TO DO: CALCULATE THAT MF NODE DELTA AND GRADIENT. I WILL GIT-R-DONE NEXT TIME.
+
+NOTES FOR 12/4
+INPUT1 = 1
+INPUT2 = 0
+OUTPUT = .223
+9 WEIGHTS
+
+TRIAL ONE XOR
+Hidden 1: -2.0
+Hidden 1 out: 0.11920292202211757
+Hidden 2: 8.0
+Hidden 2 out: 0.9996646498695336
+Output prelim:-4.713205431349907
+Final output: 0.008896108487424847
+
+TRIAL TWO XOR
+Hidden 1: 4.0
+Hidden 1 out: 0.9820137900379085
+Hidden 2: 0.0
+Hidden 2 out: 0.5
+Output prelim:-12.928055160151633
+Final output: 2.4289351923620684E-6
+
+date: December 6 2018
+Made Feedforward calculation into its own method for convenience sake.
+Calculate node delta >>>DONE
+
+date: December 10 2018
+calculate gradients >>>DONE
+
+date: December 12 2018
+I need to sum the gradients to do one big backbrop calculation.(Batch gradients)
+Fixed random number generation on weights >>>DONE
+Write backprop method >>>DONE
+
+date: December 14 2018
+I need to get everything within the while loop as to easily do multiple iterations.>>>DONE
+										but I need to improve it further.
+I'm working on it okay?
+
+date: January 2 2019
+I must at least get the outputs as they should be and how Kramer wants them. Output gradients and weights. Shouldn't be too hard. >>>DONE (kinda)
+
+date: January 4 2019
+Still figuring out the Node Deltas.
+
+date: January 8 2019
+Second to last class day before due date
+Nearly implemented the backprop algorithm
+The shit is printed correctly
+Fixed ND and gradient calculations
+Error still eludes me but alas
+I think it is universal?
+backprop for next time
+maybe clean the lines up
+they are quite messy
+
+Backprop implemented???? >>>DONE?
+we'll see
+
+date: January 10 2019
+LAST CLASS BEFORE DUE DATE
+Just wrapping things up
+adding comments
+striking out old code
+I think it works fine
+The code is janky as all hell.
